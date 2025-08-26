@@ -2,13 +2,17 @@ import { useState } from 'react'
 import Chai from './chai'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const username = "chai aur code"
   return (
   <>
   <Chai/>
-  <h1> chai aur code </h1>
-  <h2>test para</h2>
+  <h1> chai aur react | {username} </h1>  
+                                        
+  <p>
+    evaluated expression : only evaluated expression is written inside the html file hence username is an evaluated expression
+    <br/>
+    <br/>why only evaluated expressioon is written
+  </p>
   </>
   )
 }
