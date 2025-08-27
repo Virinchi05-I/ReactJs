@@ -12,6 +12,14 @@ function App() {
 
   const addValue = () => {
 
+    /* setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1)
+    setCounter(prevCounter => prevCounter + 1) 
+    
+    /* This is for interviwe if we want to update value multiple times at a time *
+    */
+
     if(counter === 20) return
 
     // counter += 1
